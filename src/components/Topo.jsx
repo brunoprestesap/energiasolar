@@ -6,16 +6,16 @@ import CtaForm from "./CtaForm";
 
 const Topo = () => {
   return (
-    <div className="bg-[#277BC0] p-5 h-screen flex flex-col items-center justify-center">
+    <div className="bg-[#277BC0] p-3 sm:p-5 h-screen flex flex-col items-center justify-center">
       <FcMoneyTransfer size={70} />
-      <h1 className="font-bold text-4xl text-center text-[#FFCB42]">
+      <h1 className="font-bold text-2xl sm:text-4xl text-center text-[#FFCB42]">
         Economize até 95% na sua conta de energia
       </h1>
-      <div className="my-3">
-        <h2 className="text-center text-xl font-semibold text-[#FFF4CF]">
+      <div className="sm:my-3">
+        <h2 className="text-center sm:text-xl font-semibold text-[#FFF4CF]">
           Entregamos o projeto completo, instalado e homologado
         </h2>
-        <h2 className="text-center text-xl font-semibold text-[#FFF4CF]">
+        <h2 className="text-center sm:text-xl font-semibold text-[#FFF4CF]">
           Faça um orçamento 100% online sem compromisso
         </h2>
       </div>

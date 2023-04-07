@@ -2,8 +2,8 @@ import React from 'react'
 
 const CtaForm = () => {
   return (
-    <div className="w-full bg-[#FFB200] rounded-2xl p-5">
-          <h2 className="text-xl font-bold text-white">Solicite uma cotação</h2>
+    <div className="w-full bg-[#FFB200] rounded-2xl p-3 sm:p-5">
+          <h2 className="text-base sm:text-xl font-bold text-white">Solicite uma cotação</h2>
 
           <form
             action="https://getform.io/f/73cd82b3-0511-4dc0-845b-0c8a5b07ca19"
@@ -12,7 +12,7 @@ const CtaForm = () => {
           >
             <div className="grid md:grid-cols-2 gap-2 w-full">
               <div className="flex flex-col">
-                <label className="text-sm py-2 text-black font-medium">
+                <label className="text-xs sm:text-sm py-2 text-black font-medium">
                   Nome
                 </label>
                 <input
@@ -22,7 +22,7 @@ const CtaForm = () => {
                 />
               </div>
               <div className="flex flex-col">
-                <label className="text-sm py-2 text-black font-medium">
+                <label className="text-xs sm:text-sm py-2 text-black font-medium">
                   Whatsapp
                 </label>
                 <input
@@ -33,7 +33,7 @@ const CtaForm = () => {
               </div>
             </div>
             <div className="flex flex-col py-2">
-              <label className="text-sm py-2 text-black font-medium">
+              <label className="text-xs sm:text-sm py-2 text-black font-medium">
                 Valor da conta de luz
               </label>
               <input
@@ -42,10 +42,13 @@ const CtaForm = () => {
                 name="valor"
               />
             </div>
+
+            <div className='flex justify-center'>
+              <button className="bg-[#254133] hover:bg-stone-700 text-gray-100 mt-2 sm:mt-4 p-3 sm:p-4 rounded-lg">
+                <h2 className="text-lg font-bold">Solicitar cotação</h2>
+              </button>
+            </div>
     
-            <button className="bg-[#254133] hover:bg-stone-700 text-gray-100 mt-4 w-full p-4 rounded-lg">
-              <h2 className="text-lg font-bold">Solicitar cotação</h2>
-            </button>
           </form>
         </div>
   )
